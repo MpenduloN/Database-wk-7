@@ -1,3 +1,6 @@
+CREATE DATABSE salesDB;
+USE salesDB;
+
 -- Split Products for a specific order
 SELECT
     OrderID,
@@ -18,4 +21,5 @@ FROM ProductDetails;
 SELECT OrderID, Product, Quality
 INTO OrderItems
 FROM OrderDetails;
+
 
